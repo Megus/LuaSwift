@@ -15,9 +15,9 @@ public enum LuaError: Error {
     case libraryNotFound(String)
 }
 
-private var luaSwiftInstances: [OpaquePointer: LuaSwift] = [:]
+fileprivate var luaSwiftInstances: [OpaquePointer: LuaSwift] = [:]
 
-private func luaLoader(_ state: OpaquePointer!) -> Int32 {
+fileprivate func luaLoader(_ state: OpaquePointer!) -> Int32 {
     guard let instance = luaSwiftInstances[state] else { return 0 }
     guard lua_type(state, -1) == LUA_TSTRING else { return 0 }
     let module = String(cString: lua_tolstring(state, -1, nil))

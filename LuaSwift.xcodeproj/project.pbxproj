@@ -81,6 +81,8 @@
 		332370E42232A00000F6240D /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3323708A2232991C00F6240D /* ltm.c */; };
 		332370E52232A00000F6240D /* ltests.c in Sources */ = {isa = PBXBuildFile; fileRef = 3323708B2232991C00F6240D /* ltests.c */; };
 		332370E62232A00000F6240D /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = 3323708D2232991C00F6240D /* ldo.c */; };
+		332370E822330F2300F6240D /* LuaSwift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332370E722330F2300F6240D /* LuaSwift2.swift */; };
+		332370E922330F2300F6240D /* LuaSwift2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332370E722330F2300F6240D /* LuaSwift2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +175,7 @@
 		332370B822329F5000F6240D /* LuaSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuaSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		332370BA22329F5000F6240D /* LuaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuaSwiftTests.swift; sourceTree = "<group>"; };
 		332370BC22329F5000F6240D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332370E722330F2300F6240D /* LuaSwift2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuaSwift2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +222,7 @@
 				332370502232990000F6240D /* LuaValue.swift */,
 				332370492232949E00F6240D /* LuaSwift.swift */,
 				332370B22232998300F6240D /* LuaSwift-Bridging-Header.h */,
+				332370E722330F2300F6240D /* LuaSwift2.swift */,
 			);
 			path = LuaSwift;
 			sourceTree = "<group>";
@@ -412,6 +416,7 @@
 				332370AD2232993F00F6240D /* lparser.c in Sources */,
 				332370A12232993F00F6240D /* lgc.c in Sources */,
 				332370A72232993F00F6240D /* lcode.c in Sources */,
+				332370E822330F2300F6240D /* LuaSwift2.swift in Sources */,
 				3323709D2232993F00F6240D /* lctype.c in Sources */,
 				3323709F2232993F00F6240D /* ldump.c in Sources */,
 				332370B02232993F00F6240D /* ltests.c in Sources */,
@@ -456,6 +461,7 @@
 				332370D52232A00000F6240D /* loslib.c in Sources */,
 				332370DD2232A00000F6240D /* ltablib.c in Sources */,
 				332370E62232A00000F6240D /* ldo.c in Sources */,
+				332370E922330F2300F6240D /* LuaSwift2.swift in Sources */,
 				332370CB2232A00000F6240D /* loadlib.c in Sources */,
 				332370D72232A00000F6240D /* lzio.c in Sources */,
 				332370C72232A00000F6240D /* lopcodes.c in Sources */,

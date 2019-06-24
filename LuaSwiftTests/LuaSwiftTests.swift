@@ -70,6 +70,15 @@ class LuaSwiftTests: XCTestCase {
             XCTAssert(false)
         }
     }
+    
+    func testCLibrary() {
+        do {
+            lua.pushCLibrary([String : lua_CFunction])
+            
+        } catch {
+            XCTAssert(false)
+        }
+    }
 
     /*func testPerformanceExample() {
         // This is an example of a performance test case.
